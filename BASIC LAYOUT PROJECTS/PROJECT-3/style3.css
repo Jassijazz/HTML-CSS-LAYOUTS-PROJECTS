@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    padding: 20px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.459) , rgba(0, 0, 0, 0.432)), url(./assets-3/pexels-maxyne-barcel-10402282\ 1.png); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 50px;
+}
+
+nav ul{
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 5px;
+}
+
+nav ul li a:hover{
+    background-color:rgba(0, 0, 0, 0.603) ;
+    text-decoration: underline;
+    border-radius: 15px;
+}
+
+nav button{
+    background-color: rgb(224, 12, 93);
+    border: 1px solid rgb(231, 10, 65);
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+    width: 120px;
+}
+
+section{
+    padding: 50px 200px 2px;
+    text-align: center;
+
+}
+
+section h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:80px;
+    padding-bottom: 45px;
+    color: rgb(255, 174, 0);
+    font-weight:900;
+    line-height: 2.4cm;
+}
+
+section button{
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid rgb(230, 12, 30)  ;
+    font-size: 17px;
+    font-weight: bolder;
+    height: 40px;
+    width: 190px;
+    padding: 0px 0px;
+    color: white;
+    background-color: rgb(230, 12, 30);
+}
+
+div.img2>img{
+float: right;
+}
+
+
+
